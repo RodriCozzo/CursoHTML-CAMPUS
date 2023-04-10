@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pseudo-Clases</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: bisque;
+      }
+
+      .hover:hover {
+        /*Se activa en cuanto el raton pasa por encima */
+        background-color: rgb(251, 174, 126);
+      }
+      .listado {
+        padding: 15px;
+        background-color: aquamarine;
+      }
+      .listado p:first-child {
+        color: blue;
+      }
+
+      a:link {
+        /*Link no visitado todavía*/
+        color: deeppink;
+      }
+      a:visited {
+        color: darkgrey;
+      }
+      a:hover {
+        color: coral;
+      }
+      a:active {
+        color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        Adipisicing quis tempor nulla laborum ea. Minim est amet eiusmod
+        excepteur cupidatat in ex id cupidatat.
+      </p>
+    </div>
+    <div class="listado">
+      <p>Lista 1</p>
+      <p>Lista 2</p>
+      <p>Lista 3</p>
+    </div>
+
+    <div class="enlaces">
+      <a href="http://google.com" target="_blank">Enlace a Google</a>
+      <a href="http://marca.com" target="_blank">Enlace a Marca</a>
+    </div>
+  </body>
+</html>

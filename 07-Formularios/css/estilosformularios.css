@@ -1,0 +1,61 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.input[type="password"]{
+    color: red;
+}
+
+.input-moderno{
+    /* Importante primero borrar TODOS los bodes y luego
+    crear el nuevo borde moderno */
+    width: 45%;
+    border: none; 
+    border-bottom: 2px solid #999999;
+    outline: none;
+    padding: 5px 5px;
+    color: #b1b1b1;
+
+}
+.input-moderno:focus{
+    color: #5f5f5f;
+    border-bottom: 2px solid #5f5f5f;
+}
+.input-moderno::placeholder{
+    color: #d5d5d5;
+}
+.input-background{
+    background-color: aquamarine;
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;    
+    outline: none;
+    box-shadow: 5px 5px 20px grey;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 5px;
+    padding-left: 35px;
+    
+}
+.input-background::placeholder{
+    color: #5f5f5f;
+}
+.input-background:focus{
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+textarea{
+    resize: horizontal;
+}
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+    border-radius: 15px;
+}

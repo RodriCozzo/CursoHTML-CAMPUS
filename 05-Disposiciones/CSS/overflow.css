@@ -1,0 +1,31 @@
+.contenedor-hidden{
+    background-color: coral;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    overflow: hidden;
+}
+.contenedor-scroll{
+    margin: 20px 0px;
+    background-color: coral;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    overflow: scroll;
+}
+.contenedor-visible{
+    margin: 20px 0px;
+    background-color: coral;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    overflow: visible;
+}
+.contenedor-auto{
+    margin: 20px 0px;
+    background-color: coral;
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    overflow: auto;
+}
